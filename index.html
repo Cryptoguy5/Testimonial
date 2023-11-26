@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .main {
+            width: 50%;
+            height: 60%;
+            border: 5px solid hsl(65, 85%, 33%);
+        }
+
+        .top {
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .middle {
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bottom {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            height: 150px;
+            width: 200px;
+            border-radius: 50%;
+            margin: 25px;
+        }
+
+        p {
+            margin: 0;
+            padding: 25px;
+            font-family: 'Petit Formal Script', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Vujahday Script', cursive;
+            font-family: 'Work Sans', sans-serif;
+
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        span {
+            color: hsl(65, 85%, 33%)
+        }
+
+        .span2 {
+            font-weight: lighter;
+            color: black;
+            font-style: italic;
+            margin-left: 5px;
+            margin-right: 5px;          
+        }
+
+        @media (max-width: 680px) {
+            .main {
+                width: 100%;
+            }
+        }
+    </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Roboto&family=Vujahday+Script&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <h2>Speedy <Span>Delivery</Span></h2>
+        </div>
+        <div class="middle">
+            <p>"Speedy delivery is an amazing service that I can always count on to get me my orders on time.
+                I have been using them for years, and can't imagine using any other sevice! Do you want to take
+                the stress out of recieving orders? Use Speedy Delivery to guarentee that your order arrives on time."
+            </p>"
+        </div>
+        <div class="bottom">
+            <img src="./stock-photo-pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction-at-250nw-776697943.webp" alt="customer">
+            <h3>Sarah Jake, <span class="span2"> director of</span> <Span>Design Online</Span></h3>
+        </div>
+    </div>
+</body>
+</html>
